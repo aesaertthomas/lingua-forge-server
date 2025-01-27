@@ -30,75 +30,67 @@ Before installing, ensure you have the following installed:
    ```bash  
    git clone https://github.com/your-username/your-repo-name.git  
    cd your-repo-name  
-Install dependencies:
+# Project Documentation
 
-bash
-Copy
-pip install -r requirements.txt  
+## Install Dependencies
+```bash
+pip install -r requirements.txt
+```
 (Optional) Set up CUDA for GPU acceleration.
 
-Start the FastAPI server:
+## Start the FastAPI Server
+```bash
+uvicorn main:app --reload
+```
 
-bash
-Copy
-uvicorn main:app --reload  
-Roadmap
+## Roadmap
 Here’s what’s planned for the future of this project:
 
-Build a clean and user-friendly CLI interface.
+- Build a clean and user-friendly CLI interface.
+- Add support for more languages using MarianMT models.
+- Improve documentation and add usage examples.
+- Explore frontend integration (if time permits 😅).
 
-Add support for more languages using MarianMT models.
-
-Improve documentation and add usage examples.
-
-Explore frontend integration (if time permits 😅).
-
-Contributing
+## Contributing
 Contributions are welcome! If you'd like to contribute, please follow these steps:
 
-Fork the repository: Create your own copy of the project by forking it.
-
-Create a branch: Make a new branch for your feature or bugfix.
-
-bash
-Copy
-git checkout -b feature/your-feature-name  
-Make your changes: Write your code, add documentation, or fix bugs.
-
-Test your changes: Ensure everything works as expected.
-
-Submit a pull request: Open a PR with a detailed description of your changes.
+1. **Fork the repository**: Create your own copy of the project by forking it.
+2. **Create a branch**: Make a new branch for your feature or bugfix.
+    ```bash
+    git checkout -b feature/your-feature-name
+    ```
+3. **Make your changes**: Write your code, add documentation, or fix bugs.
+4. **Test your changes**: Ensure everything works as expected.
+5. **Submit a pull request**: Open a PR with a detailed description of your changes.
 
 For major changes, please open an issue first to discuss what you’d like to add or change.
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Acknowledgments
+## Acknowledgments
 This project wouldn’t be possible without the following resources and tools:
 
-Hugging Face for the MarianMT models and Transformers library.
+- Hugging Face for the MarianMT models and Transformers library.
+- FastAPI for the awesome backend framework.
+- The open-source community for inspiration and support.
 
-FastAPI for the awesome backend framework.
-
-The open-source community for inspiration and support.
-
-Contact
+## Contact
 If you have any questions, feedback, or just want to chat about the project, feel free to reach out:
 
-GitHub Issues: Open an issue in this repository.
+- **GitHub Issues**: Open an issue in this repository.
+- **Email**: YourEmail@example.com
 
-Email: YourEmail@example.com
+## FAQs
 
-FAQs
-Q: Can I use this for production?
+**Q: Can I use this for production?**  
 A: This project is primarily for educational purposes and may not be production-ready. However, feel free to adapt it for your needs!
 
-Q: How do I add support for more languages?
+**Q: How do I add support for more languages?**  
 A: MarianMT supports many languages out of the box. Check the Hugging Face Model Hub for available models and update the code accordingly.
 
-Q: How can I contribute?
+**Q: How can I contribute?**  
 A: Check out the Contributing section for detailed steps on how to contribute to this project.
 
-Q: What if I encounter issues during installation?
+**Q: What if I encounter issues during installation?**  
 A: Open an issue in the repository with details about the problem, and we’ll try to help you out!
