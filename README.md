@@ -1,4 +1,4 @@
-# Open-Source Translation Tool (Name TBD)  
+# LinguaForge
 
 🚀 **A FastAPI-based translation tool powered by MarianMT models from Hugging Face.**  
 
@@ -28,8 +28,8 @@ Before installing, ensure you have the following installed:
 ### Steps  
 1. Clone the repository:  
    ```bash  
-   git clone https://github.com/aesaertthomas/translator.git
-   cd translator
+   git clone https://github.com/aesaertthomas/lingua-forge.git
+   cd lingua-forge
 # Project Documentation
 
 ## Install Dependencies (not yet implemented)
