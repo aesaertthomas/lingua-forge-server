@@ -28,11 +28,11 @@ Before installing, ensure you have the following installed:
 ### Steps  
 1. Clone the repository:  
    ```bash  
-   [git clone https://github.com/your-username/your-repo-name.git  https://github.com/aesaertthomas/translator-.git
+   git clone https://github.com/aesaertthomas/translator.git
    cd translator
 # Project Documentation
 
-## Install Dependencies
+## Install Dependencies (not yet implemented)
 ```bash
 pip install -r requirements.txt
 ```
@@ -79,7 +79,7 @@ This project wouldn’t be possible without the following resources and tools:
 If you have any questions, feedback, or just want to chat about the project, feel free to reach out:
 
 - **GitHub Issues**: Open an issue in this repository.
-- **Email**: YourEmail@example.com
+- **Email**: thomas.aesaert@gmail.com
 
 ## FAQs
 
