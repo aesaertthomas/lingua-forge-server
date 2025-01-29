@@ -1,4 +1,4 @@
-# LinguaForge
+# LinguaForge (server)
 
 🚀 **A FastAPI-based translation tool powered by MarianMT models from Hugging Face.**  
 
@@ -29,7 +29,7 @@ Before installing, ensure you have the following installed:
 1. Clone the repository:  
    ```bash  
    git clone https://github.com/aesaertthomas/lingua-forge-server.git
-   cd lingua-forge
+   cd lingua-forge-server
 # Project Documentation
 
 ## Install Dependencies (not yet implemented, probably done in V1.5)
