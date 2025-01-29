@@ -28,7 +28,7 @@ Before installing, ensure you have the following installed:
 ### Steps  
 1. Clone the repository:  
    ```bash  
-   git clone https://github.com/aesaertthomas/lingua-forge.git
+   git clone https://github.com/aesaertthomas/lingua-forge-server.git
    cd lingua-forge
 # Project Documentation
 
