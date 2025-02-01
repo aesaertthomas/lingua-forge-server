@@ -32,10 +32,6 @@ Before installing, ensure you have the following installed:
    cd lingua-forge-server
 # Project Documentation
 
-## Install Dependencies (not yet implemented, probably done in V1.5)
-```bash
-pip install -r requirements.txt
-```
 right now you need, pytorch, transformers, huggingface, and MarianMT (I recommend you use anaconda, makes a lot of this easier 😅)
 
 (Optional) Set up CUDA for GPU acceleration.
